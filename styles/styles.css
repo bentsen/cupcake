@@ -1,15 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
 :root {
-  --div-color: #f0f0f0;
+  --div-color: #2C2F33  ;
 }
 
 body {
+ background-color:#23272A;;
   font-family: "poppins";
+  margin: 0;
 }
 
 .container {
-  margin: 1em;
+  display: flex;
 }
 
 #cupcakeBanner {
@@ -18,9 +20,7 @@ body {
 
 .navbar {
   background-color: var(--div-color);
-
-  padding: 0.2em;
-  margin: 1em;
+  padding: 1em;
 }
 
 .navbar nav {
@@ -30,7 +30,7 @@ body {
 }
 
 a {
-  color: black;
+  color: white;
   text-decoration: none;
   font-size: 1em;
   padding: 0.1em 1em;
@@ -49,22 +49,26 @@ ul {
 }
 
 h1 {
-  margin-left: 2em;
-  margin-top: 1em;
   font-size: 4em;
+  color: white;
+  margin-left: 2%;
 }
 
 h2 {
-  margin-left: 5em;
   font-size: 1.5em;
+  color: white;
+  margin-left: 1.5%;
 }
 
-.main {
-  background-color: var(--div-color);
-  margin: 1em;
-  border-radius: 6px;
-  width: 98.5%;
+.main2 {
   display: inline-block;
+}
+
+.main{
+    margin: 1em;
+    border-radius: 6px;
+    background-color: var(--div-color);
+    height: 19em;
 }
 
 select {
@@ -72,33 +76,31 @@ select {
   border-color: #999999;
   height: 3em;
   width: 20em;
-  margin-left: 8vw;
+  margin-left: 2%;
   font-weight: bold;
   font-size: 1em;
 }
 
 input[type="submit"] {
-  background-color: #428dcb;
+  background-color: #7289DA;
   color: white;
   font-size: 1.8em;
   border: none;
-  margin-top: 2em;
-  display: inline-block;
   width: 6.5em;
   height: 2.2em;
   cursor: pointer;
   text-align: center;
   border-radius: 10px;
-  margin-left: 85%;
+  margin-left: 4%;
 }
 
 /* prices html */
 #Bottoms tr:nth-child(even) {
-  background-color: #f2f2f2;
+  background-color: #2C2F33;
 }
 
 #Topping tr:nth-child(even) {
-  background-color: #f2f2f2;
+  background-color: #2C2F33;
 }
 
 table {
@@ -112,4 +114,12 @@ table {
 
 #Topping {
   text-align: left;
+}
+
+td{
+    color: white;
+}
+
+th{
+    color: white;
 }
