@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+body{
+    margin: 0;
+    font-family: 'poppins';
+}
+
+.container{
+    margin: 1em; 
+}
+
+#cupcakeBanner{
+    max-width: 100%;
+}
+
+.navbar{
+    background-color: #F0F0F0;
+    padding: 0.2em;
+    margin: 1em;
+}
+
+.navbar nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+a{
+    color: #999999;
+    text-decoration: none;
+    font-size: 1em;
+    padding: .1em 1em;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#cart{
+    height: auto;
+    width: 1.5em;
+}
+
+h1{
+    margin-left: 2em;
+    margin-top: 1em;
+    font-size: 4em;
+}
+
+h2{
+    margin-left: 5em;
+    font-size: 1.5em;
+}
+
+.main{
+    background-color: #F0F0F0;
+    margin-left: 1em;
+    border-radius: 6px;
+    display:inline-block;
+}
+
+select{
+    border-radius: 4px;
+    border-color: #999999;
+    height: 3em;
+    width: 20em;
+    margin-left: 9em;
+    float: left;
+}
+
+input[type="submit"]{
+    background-color: #428DCB;
+    color: white;
+    font-size: 1.8em;
+    border: none;
+    margin-top: 2em;
+    display: inline-block;
+    width: 6.5em;
+    height: 2.2em;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 38em;
+}
