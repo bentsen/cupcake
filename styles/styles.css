@@ -68,8 +68,10 @@ select{
     border-color: #999999;
     height: 3em;
     width: 20em;
-    margin-left: 9em;
+    margin-left: 5em;
     float: left;
+    font-weight: bold;
+    font-size: 1em;
 }
 
 input[type="submit"]{
