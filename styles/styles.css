@@ -66,8 +66,8 @@ h2{
 select{
     border-radius: 4px;
     border-color: #999999;
-    height: 3em;
-    width: 20em;
+        height: 3em;
+        width: 20em;
     margin-left: 5em;
     float: left;
     font-weight: bold;
@@ -91,14 +91,16 @@ input[type="submit"]{
 
 /* prices html */
 #Bottoms tr:nth-child(even) {
-    background-color: #f2f2f2;}
+    background-color: #f2f2f2;
+}
 
 #Topping tr:nth-child(even) {
-    background-color: #f2f2f2;}
+    background-color: #f2f2f2;
+}
 
 table{
-    width: 100%;
-    margin-left: 0.5em;
+    width: 98%;
+    margin-left: 0.8em;
 }
 
 #Bottoms{
