@@ -88,3 +88,13 @@ input[type="submit"]{
     border-radius: 10px;
     margin-left: 38em;
 }
+
+#Bottoms tr:nth-child(even) {
+    background-color: #f2f2f2;}
+
+#Topping tr:nth-child(even) {
+    background-color: #f2f2f2;}
+
+table{
+    width: 100%;
+}
