@@ -89,6 +89,7 @@ input[type="submit"]{
     margin-left: 38em;
 }
 
+/* prices html */
 #Bottoms tr:nth-child(even) {
     background-color: #f2f2f2;}
 
@@ -97,4 +98,13 @@ input[type="submit"]{
 
 table{
     width: 100%;
+    margin-left: 0.5em;
+}
+
+#Bottoms{
+    text-align: left;
+}
+
+#Topping{
+    text-align: left;
 }
